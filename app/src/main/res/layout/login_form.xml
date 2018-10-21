@@ -38,35 +38,23 @@
                        android:elevation="6dp"
                        />
 
-                   <android.support.design.widget.TextInputLayout
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       android:textColorHint="@color/colorInfo"
-                       app:errorEnabled="true">
-
-                       <android.support.design.widget.TextInputEditText
+                       <EditText
                            android:layout_width="match_parent"
                            android:layout_height="wrap_content"
                            android:inputType="textEmailAddress"
-                           android:textColor="@color/colorInfo"
+                           android:drawableStart="@drawable/ic_email"
+                           android:drawablePadding="10dp"
+                           android:layout_marginBottom="10dp"
                            android:hint="@string/email" />
-                   </android.support.design.widget.TextInputLayout>
 
-                   <android.support.design.widget.TextInputLayout
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       app:errorEnabled="true"
-                       android:textColorHint="@color/colorInfo"
-                       app:passwordToggleEnabled="true">
-
-                       <android.support.design.widget.TextInputEditText
+                       <EditText
                            android:layout_width="match_parent"
                            android:layout_height="wrap_content"
                            android:inputType="textPassword"
-
-                           android:textColor="@color/colorInfo"
+                           android:drawableStart="@drawable/ic_lock"
+                           android:drawablePadding="10dp"
+                           android:layout_marginBottom="10dp"
                            android:hint="@string/password" />
-                   </android.support.design.widget.TextInputLayout>
 
                   <TextView
                       android:layout_width="match_parent"

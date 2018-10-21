@@ -10,8 +10,8 @@
         <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
         <item name="android:textColorSecondary">@color/colorInfo</item>
         <item name="android:windowBackground">@color/colorInfo</item>
-        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
-        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
-        <item name="android:colorForeground">@color/colorPrimaryDark</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:colorForeground">@color/colorInfo</item>
     </style>
 </resources>

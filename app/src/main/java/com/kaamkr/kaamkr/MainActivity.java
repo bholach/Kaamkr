@@ -55,4 +55,7 @@ public class MainActivity extends AppCompatActivity {
     public void regUser(View v){
         Toast.makeText(this, "Register btn", Toast.LENGTH_SHORT).show();
     }
+    public void gotoWorkerReg(View v){
+        startActivity(new Intent(this,WorkerRegActivity.class));
+    }
 }

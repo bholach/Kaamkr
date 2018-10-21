@@ -24,7 +24,8 @@
         <activity
             android:name=".HomeActivity"
             android:label="kaamkr"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".WorkerRegActivity"></activity>
     </application>
 
 </manifest>

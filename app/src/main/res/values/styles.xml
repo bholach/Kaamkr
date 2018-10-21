@@ -10,7 +10,7 @@
         <item name="android:textColorPrimaryInverse">@color/colorPrimary</item>
         <item name="android:textColorSecondary">@color/colorInfo</item>
         <item name="android:windowBackground">@color/colorInfo</item>
-        <item name="android:colorForeground">@color/colorPrimaryDark</item>
+        <item name="android:colorForeground">@color/colorInfo</item>
     </style>
 
     <style name="kaamkr" parent="Theme.AppCompat.Light.NoActionBar" />
